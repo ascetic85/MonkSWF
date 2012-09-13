@@ -11,8 +11,9 @@
 #define __PlaceObject_h__
 
 #include "mkTag.h"
-#include <vg/openvg.h>
-#include <vg/vgu.h>
+#include "mkCommon.h"
+#include <MonkVG/openvg.h>
+#include <MonkVG/vgu.h>
 #include <string>
 
 namespace MonkSWF {

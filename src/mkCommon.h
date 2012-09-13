@@ -15,6 +15,13 @@
 #include <stdint.h>
 #include <cmath>
 
+#if HAS_MONK_VG
+#include <MonkVG/openvg.h>
+#include <MonkVG/vgu.h>
+#else
+#include <vg/openvg.h>
+#include <vg/vgu.h>
+#endif
 
 #define MK_ASSERT assert
 

@@ -11,7 +11,6 @@
 #define __DefineSprite_h__
 
 #include "mkTag.h"
-#include <VG/openvg.h>
 #include <map>
 
 namespace MonkSWF {
